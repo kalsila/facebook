@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(2, 42, 129, 0.753);
+
+
+color: white;
+    display: flex;
+   justify-content: space-around;
+}
+.flc{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.kalci{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 207, 207);
+}
+.ab{
+    display: flex;
+}
+
+
+
+
+
+#up{
+    height: 30px;
+    width: 40px;
+    margin: 5px;
+    background-color: rgb(39, 39, 235);
+    color: white;
+}
+    
+#sign{
+
+    height: 40px;
+    width: 80px;
+    background-color: rgb(38, 219, 77) ;
+    color: white;
+
+    }
+    .bc{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .hi{
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+    .cd{
+        margin-top: 20px;
+        display: flex;
+    }
+    .ki{
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+    .ef{
+        display: flex;
+        
+    }
+    .ge{
+    margin-top: 18px;
+    margin-left: 20px;
+    }
+    .mi{
+        width: 50px;
+    }
+    .le{
+        width: 50px;
+
+    }
+.too{
+    width: 50px;
+
+}
+.ri{
+padding-right: 150px;
+
+}
+
+@media screen and (max-width:450px) {
+   
+    header{
+        background-color: rgba(2, 42, 129, 0.753);
+        display: flex;
+        flex-direction: column;
+     
+}
+
+.kalci{
+    display: block;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 207, 207);
+}
+
+
+}
+
+
+@media screen and (max-width:316px) {
+
+
+    .ri{
+        padding-right: 0px;
+        
+        }
+        
+        .flc{
+            display: block;
+            justify-content: space-around;
+            margin-left: 10px;
+        }
+        
+
+}
